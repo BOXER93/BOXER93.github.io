@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="html笔记 特殊格式  1&amp;lt;pre&amp;gt;&amp;lt;/pre&amp;gt;可保留换行和空格，很方便。   缩略  12&amp;lt;abbr title=&quot;title用于限制所要缩略的词&quot;&amp;gt;特别的缩略&amp;lt;/abbr&amp;gt; &amp;lt;acronym&amp;gt;简略至首字母&amp;lt;/acronym&amp;gt;   注释  1&amp;lt;!-- 注释 --&amp;gt;   链接和图片  123451. 文本链接&amp;l">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-10-11T12:26:25.332Z">
+<meta property="og:updated_time" content="2019-10-11T13:20:58.081Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="奇妙的html">
 <meta name="twitter:description" content="html笔记 特殊格式  1&amp;lt;pre&amp;gt;&amp;lt;/pre&amp;gt;可保留换行和空格，很方便。   缩略  12&amp;lt;abbr title=&quot;title用于限制所要缩略的词&quot;&amp;gt;特别的缩略&amp;lt;/abbr&amp;gt; &amp;lt;acronym&amp;gt;简略至首字母&amp;lt;/acronym&amp;gt;   注释  1&amp;lt;!-- 注释 --&amp;gt;   链接和图片  123451. 文本链接&amp;l">
@@ -339,6 +339,22 @@
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">1. 无序列表</span><br><span class="line">  <span class="tag">&lt;<span class="name">ul</span> <span class="attr">type</span>=<span class="string">"列表类型 disc默认实心黑点、circle空心圆、square方形"</span> &gt;</span> </span><br><span class="line">      <span class="tag">&lt;<span class="name">li</span>&gt;</span>内容<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">li</span>&gt;</span>内容<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">2. 有序列表</span><br><span class="line">  <span class="tag">&lt;<span class="name">ol</span> <span class="attr">type</span>=<span class="string">"序列类型 A、a、I罗马字母、i小写罗马字母"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br><span class="line">3. 定义列表</span><br><span class="line">  <span class="tag">&lt;<span class="name">dl</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">dt</span>&gt;</span>表头作用<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">dd</span>&gt;</span>展开内容<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">dl</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 <p><strong>注</strong>：嵌套列表随意使用，但注意代码的<u>对应和完整</u>。</p>
+<ol start="7">
+<li><p>框架</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">frameset</span> <span class="attr">cols</span>/<span class="attr">rows</span>=<span class="string">"第一列/行被设置为占据浏览器窗口的百分比</span></span></span><br><span class="line"><span class="tag"><span class="string">                     第二列/行被设置为占据浏览器窗口的百分比 </span></span></span><br><span class="line"><span class="tag"><span class="string">                     ......"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">"html文档地址"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>多次使用frameset即可创造出各种并存框架</p>
+</li>
+</ol>
+<p>​    8.style</p>
+</li>
+</ol>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1. 背景颜色 <span class="tag">&lt;<span class="name">body</span>/<span class="attr">h1</span>/<span class="attr">p</span> <span class="attr">style</span>=<span class="string">"background-color:颜色"</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;/<span class="name">body</span>/<span class="attr">h1</span>/<span class="attr">p</span>&gt;</span></span><br><span class="line">2. 字体颜色 <span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">"color:颜色"</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ol start="9">
+<li><p>数学变量</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">var</span>&gt;</span>E<span class="tag">&lt;/<span class="name">var</span>&gt;</span> = <span class="tag">&lt;<span class="name">var</span>&gt;</span>m<span class="tag">&lt;/<span class="name">var</span>&gt;</span> <span class="tag">&lt;<span class="name">var</span>&gt;</span>c<span class="tag">&lt;/<span class="name">var</span>&gt;</span><span class="tag">&lt;<span class="name">sup</span>&gt;</span>2<span class="tag">&lt;/<span class="name">sup</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">即E = m c2</span><br></pre></td></tr></table></figure>
+
 </li>
 </ol>
 
