@@ -310,35 +310,37 @@
       
         
           
-            <ol>
-<li><p>保存代码书写格式</p>
+            <h3 id="html笔记"><a href="#html笔记" class="headerlink" title="html笔记"></a><center>html笔记</center></h3><ol>
+<li>特殊格式</li>
+</ol>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">pre</span>&gt;</span><span class="tag">&lt;/<span class="name">pre</span>&gt;</span>可保留换行和空格，很方便。</span><br></pre></td></tr></table></figure>
 
-
-
-</li>
-</ol>
 <ol start="2">
-<li><p>缩略</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">abbr</span> <span class="attr">title</span>=<span class="string">"title用于限制所要缩略的词"</span>&gt;</span>用于单个词<span class="tag">&lt;/<span class="name">abbr</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">acronym</span>&gt;</span>用于多个单词简略至首字母<span class="tag">&lt;/<span class="name">acronym</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-
-
-</li>
+<li>缩略</li>
 </ol>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">abbr</span> <span class="attr">title</span>=<span class="string">"title用于限制所要缩略的词"</span>&gt;</span>特别的缩略<span class="tag">&lt;/<span class="name">abbr</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">acronym</span>&gt;</span>简略至首字母<span class="tag">&lt;/<span class="name">acronym</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
 <ol start="3">
-<li><p>注释</p>
+<li>注释</li>
+</ol>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 注释 --&gt;</span></span><br></pre></td></tr></table></figure>
 
-
-
-</li>
-</ol>
 <ol start="4">
-<li><p>链接</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">herf</span>=<span class="string">"链接地址"</span>&gt;</span>链接入口<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<li>链接和图片</li>
+</ol>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1. 文本链接<span class="tag">&lt;<span class="name">a</span> <span class="attr">herf</span>=<span class="string">"链接地址"</span>&gt;</span>链接入口<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">2. 图片链接<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"链接地址"</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"图片地址"</span> <span class="attr">width</span>=<span class="string">"宽度"</span> </span></span><br><span class="line"><span class="tag">               <span class="attr">height</span>=<span class="string">"高度"</span> <span class="attr">alt</span>=<span class="string">"图片替换文本"</span>&gt;</span>  </span><br><span class="line">3. 背景图片<span class="tag">&lt;<span class="name">body</span> <span class="attr">background</span>=<span class="string">"图片地址"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ol start="5">
+<li><p>表格</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">table</span> <span class="attr">border</span>=<span class="string">"边框大小"</span> </span></span><br><span class="line"><span class="tag">       <span class="attr">cellpadding</span>=<span class="string">"单元格边距"</span> </span></span><br><span class="line"><span class="tag">       <span class="attr">cellspacing</span>=<span class="string">"单元格间距"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span>&gt;</span>控制一行 </span><br><span class="line">    <span class="tag">&lt;<span class="name">caption</span>&gt;</span>标题<span class="tag">&lt;/<span class="name">caption</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">th</span> <span class="attr">colspan</span>=<span class="string">"横向控制单元格数"</span> </span></span><br><span class="line"><span class="tag">        <span class="attr">rowspan</span>=<span class="string">"纵向控制单元格数"</span>&gt;</span>表头<span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">td</span>&gt;</span>控制单元格<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>注*</strong>：<strong>align</strong>可控制单元格内容的布局，如靠左、靠右、中间。</p>
 </li>
-<li></li>
+<li><p>列表</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">1. 无序列表</span><br><span class="line">  <span class="tag">&lt;<span class="name">ul</span> <span class="attr">type</span>=<span class="string">"列表类型 disc默认实心黑点、circle空心圆、square方形"</span> &gt;</span> </span><br><span class="line">      <span class="tag">&lt;<span class="name">li</span>&gt;</span>内容<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">li</span>&gt;</span>内容<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">2. 有序列表</span><br><span class="line">  <span class="tag">&lt;<span class="name">ol</span> <span class="attr">type</span>=<span class="string">"序列类型 A、a、I罗马字母、i小写罗马字母"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br><span class="line">3. 定义列表</span><br><span class="line">  <span class="tag">&lt;<span class="name">dl</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">dt</span>&gt;</span>表头作用<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">dd</span>&gt;</span>展开内容<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">dl</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>注</strong>：嵌套列表随意使用，但注意代码的<u>对应和完整</u>。</p>
+</li>
 </ol>
 
           
